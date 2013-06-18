@@ -9,11 +9,26 @@ body {
 
 header {
   padding: 10px;
+  background-color: black;
+  height: 60px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+
 }
 
 .brand {
   font-family: "Lato", Verdana, sans-serif;
   font-size: 3em;
+  float: left;
+}
+
+.brand a {
+  color: white;
+  text-decoration: none;
 }
 
 .brand a:hover {
@@ -25,7 +40,69 @@ header {
   margin: 0 auto;
 }
 
+.container .features div:nth-child(1) {
+  float: left;
+  width: 337px;
+}
+
+.container .features div:nth-child(2) {
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 323px;
+}
+
+.container .features div:nth-child(3) {
+  float: right;
+  width: 337px;
+}
+
+.features div:nth-child(2) {
+  border-left: solid 2px lightgray;
+  border-right: solid 2px lightgray;
+}
+
+.features div {
+margin-top: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-bottom: 20px;
+}
+
+
+.features div h3 {
+  text-align: center;
+}
+
+
 .marketing {
   padding: 10px;
   margin: 1em 0;
+  background-color: #333;
+  color: white;
+  clear: both;
 }
+
+
+nav {
+  padding-left: 920px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  padding-right: 40px;
+}
+
+nav ul li a:hover {
+  color: #ff0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
